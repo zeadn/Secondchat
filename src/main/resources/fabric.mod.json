@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "secondchat",
+  "version": "${version}",
+  "name": "Second Chat",
+  "description": "Adds a second chat, allowing regex filtering of messages.",
+  "authors": ["zead"],
+  "contact": {
+    "homepage": "https://github.com/zeadn",
+    "sources": "https://github.com/zeadn/SecondChat"
+  },
+  "license": "MIT",
+  "icon": "assets/secondchat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.zead.secondchat.SecondChat"
+    ],
+    "modmenu": [
+      "net.zead.secondchat.SecondChat"
+    ]
+  },
+  "mixins": [
+    "secondchat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.19.4",
+    "java": ">=17",
+    "fabric-api": "*",
+    "cloth-config2": ">=10.0.96"
+  },
+  "suggests": {
+    "modmenu": ">=6.3.1"
+  }
+}

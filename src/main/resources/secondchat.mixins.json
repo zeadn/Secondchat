@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.zead.secondchat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChatHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "secondchat.config.title": "Second Chat Configuration",
+  "secondchat.config.category": "General",
+  "secondchat.config.rules": "Filter Rules",
+  "secondchat.config.rules.tooltip": "List of rules to filter chat messages (format: type:value, e.g., REGEX:hello or CONTAINS:hi)",
+  "secondchat.config.rules.add.tooltip": "Add a new filter rule",
+  "secondchat.config.rules.remove.tooltip": "Remove a filter rule",
+  "secondchat.config.add_rule": "New Rule Value",
+  "secondchat.config.add_rule.tooltip": "Enter the value for a new rule (e.g., 'hello' for CONTAINS or a regex pattern)",
+  "secondchat.config.rule_type": "Rule Type",
+  "secondchat.config.rule_type.tooltip": "Select the type of rule (REGEX or CONTAINS)",
+  "secondchat.config.message_lifetime": "Message Lifetime (seconds)",
+  "secondchat.config.message_lifetime.tooltip": "How long filtered messages stay on the HUD (1-60 seconds)",
+  "secondchat.config.hud_x_offset": "HUD X Offset",
+  "secondchat.config.hud_x_offset.tooltip": "Horizontal offset from the right side of the window (negative to move left)",
+  "secondchat.config.hud_y": "HUD Y Position",
+  "secondchat.config.hud_y.tooltip": "Vertical position from the top of the window",
+  "secondchat.config.hud_width": "HUD Width",
+  "secondchat.config.hud_width.tooltip": "Width of the HUD background",
+  "secondchat.config.hud_background_color": "HUD Background Color",
+  "secondchat.config.hud_background_color.tooltip": "Background color in hex format (e.g., #80000000 for semi-transparent black)"
+}
